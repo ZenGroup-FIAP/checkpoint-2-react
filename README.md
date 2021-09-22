@@ -1,6 +1,6 @@
 ## checkpoint-2-react
 
-# Checkpoint 2 do segundo semestre(primeiro ano) do curso de Análise e Desenvolvimento de Sistemas, para a disciplina de Responsive Web Development(FIAP).
+### Checkpoint 2 do segundo semestre(primeiro ano) do curso de Análise e Desenvolvimento de Sistemas, para a disciplina de Responsive Web Development(FIAP).
 
 Integrantes:
 
