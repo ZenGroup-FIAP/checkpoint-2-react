@@ -1,11 +1,11 @@
 import Cabecalho from './components/cabecalho/Cabecalho.jsx'
-import Corpo from ''
+import Corpo from './components/corpo/Corpo.jsx'
 
 function App() {
   return (
     <>
-    <h1>ola</h1>
     <Cabecalho/>
+    <Corpo/>
    </>
   );
 }
