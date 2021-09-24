@@ -3,6 +3,8 @@ import ModaMasculina from "../ModaMasculina/ModaMasculina"
 import {Link, Switch, Route} from 'react-router-dom'
 import Home from '../Home/Home'
 import ModaFeminina from '../ModaFeminina/ModaFeminina'
+import ModaInfantil from '../ModaInfantil/ModaInfantil'
+import Sobre from '../Sobre/Sobre'
 
 export default function Menu() {
     return (
@@ -37,6 +39,13 @@ export default function Menu() {
                     <Route path="/feminino">
                         <ModaFeminina />
                     </Route>
+                    <Route path="/infantil">
+                        <ModaInfantil />
+                    </Route>
+                    <Route path="/sobre">
+                        <Sobre />
+                    </Route>
+                    
                 </Switch>
             </section>
         </>
