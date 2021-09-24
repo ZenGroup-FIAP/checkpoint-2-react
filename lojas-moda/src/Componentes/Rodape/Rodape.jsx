@@ -1,5 +1,5 @@
 import React from 'react'
-import {BgFooter, Container, SecaoHome, TextoFooter} from '../../style.js'
+import {BgFooter, Container, SecaoHome, TextoFooter} from '../../styled.js'
 
 export default function Rodape() {
     return (
