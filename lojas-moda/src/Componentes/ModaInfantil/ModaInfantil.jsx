@@ -6,6 +6,7 @@ import Calcados from "../../img/infantil/calcas-infantil.jpg"
 import Variados from "../../img/infantil/variados-infantil.jpg"
 
 
+
 export default function ModaInfantil() {
     return (
         <div>
