@@ -4,8 +4,6 @@ import HomemHome from '../../img/homem-home.jpg'
 import MulherHome from '../../img/mulher-home.jpg'
 import InfantilHome from '../../img/infantil-home.jpg'
 
-
-
 export default function Home() {
 
     return (
@@ -53,15 +51,7 @@ export default function Home() {
                     </Container>
                 </BgHome>
 
-                <BgFooter>
-                    <Container>
-                        <SecaoHome>
-                            <TextoFooter>
-                                ZenModas 2021 - Todos os direitos reservados.
-                            </TextoFooter>
-                        </SecaoHome>
-                    </Container>
-                </BgFooter>
+                
         </div>
     )
 }
