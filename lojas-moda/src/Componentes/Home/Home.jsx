@@ -51,15 +51,7 @@ export default function Home() {
                     </Container>
                 </BgHome>
 
-                <BgFooter>
-                    <Container>
-                        <SecaoHome>
-                            <TextoFooter>
-                                ZenModas 2021 - Todos os direitos reservados.
-                            </TextoFooter>
-                        </SecaoHome>
-                    </Container>
-                </BgFooter>
+                
         </div>
     )
 }

@@ -1,10 +1,18 @@
 import React from 'react'
-import {FlexRodape, Direitos} from '../../style.js'
+import {BgFooter, Container, SecaoHome, TextoFooter} from '../../style.js'
 
 export default function Rodape() {
     return (
-        <FlexRodape>
-            <Direitos>ZenModas 2021 - Todos os direitos reservados.</Direitos>
-        </FlexRodape>
+        <div>  
+            <BgFooter>
+                    <Container>
+                        <SecaoHome>
+                            <TextoFooter>
+                                ZenModas 2021 - Todos os direitos reservados.
+                            </TextoFooter>
+                        </SecaoHome>
+                    </Container>
+            </BgFooter>
+        </div>    
     )
 }
