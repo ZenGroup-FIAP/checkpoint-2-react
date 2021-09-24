@@ -1,5 +1,5 @@
 import React from 'react'
-import { Titulo, Subtitulo, SecaoHome, Container, Flexbox, FlexItem} from '../../styled.js'
+import { Titulo, Subtitulo, SecaoHome, Container, Flexbox, FlexItem, TituloFlexItem} from '../../styled.js'
 import CamisetaFeminina from '../../img/feminino/camisetas-feminino.jpg'
 import CalcasFeminina from '../../img/feminino/calcas-feminino.jpg'
 import CalcadosFeminina from '../../img/feminino/calcados-feminino.jpg'
@@ -13,28 +13,28 @@ export default function ModaFeminina() {
                 <Subtitulo>O melhor e mais sofisticado para homem</Subtitulo>
             </SecaoHome>    
 
-        <Container>    
-            <SecaoHome>
-                <Flexbox>
-                    <FlexItem>
-                        <img src={CamisetaFeminina} alt="Camisetas em cabides" />
-                        <p>Camisetas</p>
-                    </FlexItem>
-                    <FlexItem>
-                        <img src={CalcasFeminina} alt="Calça preta" />
-                        <p>Calças</p>
-                    </FlexItem>
-                    <FlexItem>
-                        <img src={CalcadosFeminina} alt="Tênis vermelho" />
-                        <p>Calçados</p>
-                    </FlexItem>
-                    <FlexItem>
-                        <img src={VestidosFeminina} alt="Roupa social" />
-                        <p>Vestidos</p>
-                    </FlexItem>
-                </Flexbox>
-            </SecaoHome>
-        </Container>
+            <Container>    
+                <SecaoHome>
+                    <Flexbox>
+                        <FlexItem>
+                            <img src={CamisetaFeminina} alt="Camisetas em cabides" />
+                            <TituloFlexItem>Camisetas</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={CalcasFeminina} alt="Calça preta" />
+                            <TituloFlexItem>Calças</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={CalcadosFeminina} alt="Tênis vermelho" />
+                            <TituloFlexItem>Calçados</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={VestidosFeminina} alt="Roupa social" />
+                            <TituloFlexItem>Vestidos</TituloFlexItem>
+                        </FlexItem>
+                    </Flexbox>
+                </SecaoHome>
+            </Container>
         </div>
     )
 }
