@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Titulo, Flexbox, FlexItem } from '../../styled'
+import { Container, Titulo, Flexbox, FlexItem, TituloInterno, Subtitulo } from '../../styled'
 
 
 
@@ -10,23 +10,23 @@ export default function Home() {
             <Container>
                 <section>
                     <Titulo>Zen Modas</Titulo>
-                    <h3>O lugar perfeito para comprar novas peças</h3>
+                    <Subtitulo>O lugar perfeito para comprar novas peças</Subtitulo>
                 </section>
 
                 <section>
-                    <h2>Confira nossas coleções</h2>
+                    <TituloInterno>Confira nossas coleções</TituloInterno>
                     <Flexbox>
                         <FlexItem>
-                            <img src="../../img/homem-home.jpg" alt="home-homem" />
-                            <h2>Moda Masculina</h2>
+                            <img src="../img/homem-home.jpg" alt="home-homem" />
+                            <TituloInterno>Moda Masculina</TituloInterno>
                         </FlexItem>
                         <FlexItem>
                             <img src="../../img/mulher-home.jpg" alt="home-mulher" />
-                            <h2>Moda Feminina</h2>
+                            <TituloInterno>Moda Feminina</TituloInterno>
                         </FlexItem>
                         <FlexItem>
                             <img src="../../img/infantil-home.jpg" alt="home-infantil" />
-                            <h2>Moda Infantil</h2>
+                            <TituloInterno>Moda Infantil</TituloInterno>
                         </FlexItem>
                     </Flexbox>
                 </section>

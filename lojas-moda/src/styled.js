@@ -7,17 +7,17 @@ export const Container = styled.div`
 `;
 
 export const Titulo = styled.h1`
-    color: #FFF;
+    color: #3D3D3D;
     font-size: 40px;
 `;
 
-export const Titulo = styled.h2`
-    color: #FFF;
+export const TituloInterno = styled.h2`
+    color: #3D3D3D;
     font-size: 36px;
 `;
 
-export const Titulo = styled.h3`
-    color: #FFF;
+export const Subtitulo = styled.h3`
+    color: #3D3D3D;
     font-size: 25px;
 `;
 
