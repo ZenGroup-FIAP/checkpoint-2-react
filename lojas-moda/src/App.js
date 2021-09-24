@@ -1,7 +1,10 @@
+import Menu from "./Componentes/Menu/Menu";
 
-function App() {
+
+export default function App() {
   return (
     <>
+        <Menu />
     </>
   );
 }
