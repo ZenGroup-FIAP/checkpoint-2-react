@@ -13,19 +13,19 @@ export default function ModaInfantil() {
 
             <ul>
                 <li>
-                    <img src={Camisetas} alt="Camisetas em cabides" />
+                    <img src={Camisetas} alt="Camisetas infantis" />
                     <p>Camisetas</p>
                 </li>
                 <li>
-                    <img src={Calcas} alt="Calça preta" />
+                    <img src={Calcas} alt="Calça infantis" />
                     <p>Calças</p>
                 </li>
                 <li>
-                    <img src={Calcados} alt="Tênis vermelho" />
+                    <img src={Calcados} alt="Tênis infantis" />
                     <p>Calçados</p>
                 </li>
                 <li>
-                    <img src={Variados} alt="Roupa social" />
+                    <img src={Variados} alt="Variaveis infantis" />
                     <p>Variados</p>
                 </li>
             </ul>
