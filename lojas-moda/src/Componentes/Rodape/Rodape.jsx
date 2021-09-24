@@ -1,5 +1,5 @@
 import React from 'react'
-import {FlexRodape, Direitos} from '../style.js'
+import {FlexRodape, Direitos} from '../../style.js'
 
 export default function Rodape() {
     return (

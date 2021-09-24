@@ -1,7 +1,12 @@
+import React from "react";
+import Rodape from "./Componentes/Rodape/Rodape.jsx"
 
-function App() {
+
+
+export default function App() {
   return (
     <>
+    <Rodape/>
     </>
   );
 }
