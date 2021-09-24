@@ -4,6 +4,14 @@ import Menu from "./Componentes/Menu/Menu";
 
 export default function App() {
 
+
+  return (
+    <div>
+      <Home/>
+    </div>
+  );
+}
+
   return(
       <>
           <Menu />
@@ -11,3 +19,4 @@ export default function App() {
       </>
     );
 }
+
