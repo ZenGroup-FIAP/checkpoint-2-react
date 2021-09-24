@@ -2,7 +2,7 @@ import React from 'react'
 import { Titulo, Subtitulo, SecaoHome, Container, Flexbox, FlexItem, TituloFlexItem} from '../../styled.js'
 import Camisetas from "../../img/infantil/camisetas-infantil.jpg"
 import Calcas from "../../img/infantil/calcas-infantil.jpg"
-import Calcados from "../../img/infantil/calcas-infantil.jpg"
+import Calcados from "../../img/infantil/calcados-infantil.jpg"
 import Variados from "../../img/infantil/variados-infantil.jpg"
 
 
