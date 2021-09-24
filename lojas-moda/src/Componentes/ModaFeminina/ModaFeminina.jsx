@@ -1,13 +1,13 @@
 import React from 'react'
 import Styled from '../../styled.js'
-import {} from '../../styled.js'
+import {Titulo, Subtitulo} from '../../styled.js'
 
 
 export default function ModaFeminina() {
     return (
         <div>
             <Titulo>Moda feminina</Titulo>
-            <p>O melhor e mais sofisticado para homem</p>
+            <Subtitulo>O melhor e mais sofisticado para homem</Subtitulo>
 
             <ul>
                 <li>
