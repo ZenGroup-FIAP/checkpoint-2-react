@@ -1,5 +1,13 @@
 import styled from 'styled-components'
 
+export const Html = styled.html`
+    html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+`;
+
 export const Container = styled.div`
     max-width: 1640px;
     position: relative;
@@ -15,7 +23,7 @@ export const BotaoHome = styled.div`
     color: #FFF;
     border: 3px solid #FFF;
     border-radius: 50px;
-    padding: 5px 10px; 
+    padding: 20px 10px; 
     text-transform: uppercase;
     letter-spacing: .1em;
     margin: 0 auto 60px auto;
@@ -66,6 +74,7 @@ export const TituloInterno = styled.h2`
     color: #3D3D3D;
     font-size: 36px;
     font-family: Georgia;
+    font-weight: bold;
     margin-bottom: 60px;
 `;
 
