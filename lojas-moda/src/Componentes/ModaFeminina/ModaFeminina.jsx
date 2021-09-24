@@ -1,7 +1,5 @@
 import React from 'react'
-import Styled from '../../styled.js'
-import {Titulo, Subtitulo} from '../../styled.js'
-
+import { Titulo, Subtitulo } from '../../styled.js'
 
 export default function ModaFeminina() {
     return (
@@ -11,19 +9,19 @@ export default function ModaFeminina() {
 
             <ul>
                 <li>
-                    <img src={Camisetas} alt="Camisetas em cabides" />
+                    <img src={null} alt="Camisetas em cabides" />
                     <p>Camisetas</p>
                 </li>
                 <li>
-                    <img src={Calcas} alt="Calça preta" />
+                    <img src={null} alt="Calça preta" />
                     <p>Calças</p>
                 </li>
                 <li>
-                    <img src={Calcados} alt="Tênis vermelho" />
+                    <img src={null} alt="Tênis vermelho" />
                     <p>Calçados</p>
                 </li>
                 <li>
-                    <img src={Social} alt="Roupa social" />
+                    <img src={null} alt="Roupa social" />
                     <p>Social</p>
                 </li>
             </ul>
