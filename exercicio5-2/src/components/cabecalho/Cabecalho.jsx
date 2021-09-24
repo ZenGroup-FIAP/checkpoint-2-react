@@ -1,9 +1,10 @@
 import React from 'react'
+import {Zen} from "../styled-externo/styled-externo"
 
 export default function Cabecalho() {
     return (
         <header>
-            <h1>Sorveteria ZenGroup</h1>
+            <Zen>Sorveteria ZenGroup</Zen>
             <p>Lorem ipsum dolor sit amet, consectetur adip
                 Lorem ipsum dolor sit amet, consectetur adip
             </p>
