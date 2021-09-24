@@ -1,13 +1,11 @@
-import React from 'react'
-import Home from './Componentes/Home/Home.jsx'
+import Menu from "./Componentes/Menu/Menu";
 
 
-export function App() {
 export default function App() {
-
   return (
-    <div>
-      <Home/>
-    </div>
-  )
+    <>
+        <Menu />
+    </>
+  );
 }
+

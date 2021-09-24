@@ -4,8 +4,6 @@ import HomemHome from '../../img/homem-home.jpg'
 import MulherHome from '../../img/mulher-home.jpg'
 import InfantilHome from '../../img/infantil-home.jpg'
 
-
-
 export default function Home() {
 
     return (
