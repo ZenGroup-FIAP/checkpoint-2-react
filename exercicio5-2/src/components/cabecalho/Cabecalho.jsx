@@ -5,9 +5,9 @@ export default function Cabecalho() {
     return (
         <header>
             <Zen>Sorveteria ZenGroup</Zen>
-            <p>Lorem ipsum dolor sit amet, consectetur adip
+            <Zin>Lorem ipsum dolor sit amet, consectetur adip
                 Lorem ipsum dolor sit amet, consectetur adip
-            </p>
+            </Zin>
         </header>
     )
 }
