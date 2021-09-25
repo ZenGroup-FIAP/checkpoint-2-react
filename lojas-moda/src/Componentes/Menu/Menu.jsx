@@ -11,7 +11,7 @@ export default function Menu() {
         <>
             <header style={{backgroundColor: 'black'}}>
                 <div className="logo-img">
-                    <Link to="/home">
+                    <Link to="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="305" height="63" viewBox="0 0 305 63">
                             <text id="ZenModas" transform="translate(0 48)" fill="#fff" font-size="60" font-family="JosefinSans-Bold, Josefin Sans" font-weight="700"><tspan x="0" y="0">ZenModas</tspan></text>
                         </svg>
@@ -30,9 +30,7 @@ export default function Menu() {
 
             <section>
                 <Switch>
-                    <Route path="/home">
-                        <Home />
-                    </Route>
+                    
                     <Route path="/masculino">
                         <ModaMasculina />
                     </Route>
@@ -44,6 +42,9 @@ export default function Menu() {
                     </Route>
                     <Route path="/sobre">
                         <Sobre />
+                    </Route>
+                    <Route path="/">
+                        <Home />
                     </Route>
                     
                 </Switch>
