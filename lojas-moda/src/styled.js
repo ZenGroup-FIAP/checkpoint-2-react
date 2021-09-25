@@ -6,6 +6,55 @@ export const Html = styled.html`
         padding: 0;
         border: 0;
         vertical-align: baseline;
+    }
+`;
+
+export const Cabecalho = styled.header`
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+    display: flex;
+    background-color: #6FAECB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+    .logo-img svg {
+        width: 200px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+
+    ul li {
+        margin: 0px 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        
+    }
+
+    a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    @media (max-width: 820px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (max-width: 640px) {
+        ul {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            margin: 10px 0px;
+        }
+    }
 `;
 
 export const Container = styled.div`

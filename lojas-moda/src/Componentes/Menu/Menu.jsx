@@ -5,11 +5,13 @@ import Home from '../Home/Home'
 import ModaFeminina from '../ModaFeminina/ModaFeminina'
 import ModaInfantil from '../ModaInfantil/ModaInfantil'
 import Sobre from '../Sobre/Sobre'
+import { Cabecalho } from '../../styled.js'
+
 
 export default function Menu() {
     return (
         <>
-            <header style={{backgroundColor: 'black'}}>
+            <Cabecalho>
                 <div className="logo-img">
                     <Link to="/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="305" height="63" viewBox="0 0 305 63">
@@ -26,7 +28,7 @@ export default function Menu() {
                         <li><Link to="/sobre">Sobre</Link></li>
                     </ul>
                 </nav>
-            </header>
+            </Cabecalho>
 
             <section>
                 <Switch>
