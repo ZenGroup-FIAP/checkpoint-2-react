@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { Container, Titulo, Flexbox, FlexItem, TituloInterno, Subtitulo, BgHome, SecaoHome, TituloFlexItem, TituloBranco, SobreHomeP, BotaoHome, BgFooter, TextoFooter, BotaoHomeP } from '../../styled'
 import HomemHome from '../../img/homem-home.jpg'
 import MulherHome from '../../img/mulher-home.jpg'
@@ -42,11 +43,13 @@ export default function Home() {
                             <SobreHomeP>
                             Para saber mais sobre o time por trás deste projeto, basta clicar no botão abaixo
                             </SobreHomeP>
-                            <BotaoHome>
-                                <BotaoHomeP>
-                                    Sobre
-                                </BotaoHomeP>
-                            </BotaoHome>
+                            <Link to="/sobre">
+                                <BotaoHome>
+                                    <BotaoHomeP>
+                                        Sobre
+                                    </BotaoHomeP>
+                                </BotaoHome>
+                            </Link>
                         </SecaoHome>
                     </Container>
                 </BgHome>

@@ -74,6 +74,11 @@ export const BotaoHomeP = styled.p`
     font-size: 25px;
     font-family: Georgia;
     font-weight: normal;
+
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
 `;
 
 export const BgHome = styled.div`
