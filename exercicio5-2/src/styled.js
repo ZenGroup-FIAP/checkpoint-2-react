@@ -30,6 +30,13 @@ export const Flexbox = styled.div`
     }
 `;
 
-export const FlexItem = styled.div
-    text-align: center;
-;
+export const FlexItem = styled.div`
+    text-align:center;
+`;
+
+export const TituloItem = styled.p`
+    font-size: 20px;
+    color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+
+`;

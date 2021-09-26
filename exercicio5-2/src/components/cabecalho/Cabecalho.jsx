@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Titulo, Zin, CorpoStyled} from "../../styled.js"
+import {Container, Titulo, CorpoStyled} from "../../styled.js"
 
 export default function Cabecalho() {
     return (
@@ -8,9 +8,6 @@ export default function Cabecalho() {
             <CorpoStyled>   
                 <header>
                 <Titulo>Sorveteria ZenGroup</Titulo>
-                <Zin>Lorem ipsum dolor sit amet, consectetur adip
-                    Lorem ipsum dolor sit amet, consectetur adip
-                </Zin>
                 </header>
             </CorpoStyled>
             </Container>
