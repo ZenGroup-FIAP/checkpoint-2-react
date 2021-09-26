@@ -1,9 +1,11 @@
 import React from 'react'
+import { Container, CorpoStyled } from '../../styled'
 
 export default function Corpo() {
     return (
         <div>
-            
+            <Container>
+            <CorpoStyled>
             <h2>Sabores</h2>
             <ul>
                 <li>morango</li>
@@ -26,7 +28,8 @@ export default function Corpo() {
                 <li>calda de chocolate</li>
                 <li>ovomaltine</li>
             </ul>
-
+            </CorpoStyled>
+            </Container>
         </div>
     )
 }
