@@ -136,9 +136,10 @@ export const Subtitulo = styled.h3`
 `;
 
 export const Flexbox = styled.div`
+    max-width: 1640px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 124px;
 `;
 
 export const FlexItem = styled.div`

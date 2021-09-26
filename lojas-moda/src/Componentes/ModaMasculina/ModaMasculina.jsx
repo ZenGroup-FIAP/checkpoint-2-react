@@ -1,9 +1,9 @@
 import React from 'react'
 import { Titulo, Subtitulo, SecaoHome, Container, Flexbox, FlexItem, TituloFlexItem} from '../../styled.js'
-import Camisetas from "../../img/masculino/camisetas-homem@2x.jpg"
-import Calcas from "../../img/masculino/calcas-homem@2x.jpg"
-import Calcados from "../../img/masculino/calcados-homem@2x.jpg"
-import Social from "../../img/masculino/social-homem@2x.jpg"
+import Camisetas from "../../img/masculino/camisetas-homem.jpg"
+import Calcas from "../../img/masculino/calcas-homem.jpg"
+import Calcados from "../../img/masculino/calcados-homem.jpg"
+import Social from "../../img/masculino/social-homem.jpg"
 
 
 export default function ModaMasculina() {
