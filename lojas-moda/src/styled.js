@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const Html = styled.html`
-    html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        vertical-align: baseline;
-    }
-`;
-
 export const Cabecalho = styled.header`
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
     display: flex;
@@ -136,9 +127,16 @@ export const Subtitulo = styled.h3`
 `;
 
 export const Flexbox = styled.div`
+    max-width: 1640px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 124px;
+
+    @media (max-width: 1800px) {
+        flex-direction: column;
+        justify-content: center;
+
+    }
 `;
 
 export const FlexItem = styled.div`
@@ -158,4 +156,19 @@ export const SobreHomeP = styled.p`
     font-family: Georgia;
     font-weight: normal;
     margin-bottom: 60px
+`;
+
+export const ListaSobre = styled.ul`
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 120px auto 363px auto;
+    font-style: italic;
+    font-weight: bold;
+    color: #3d3d3d;
+
+    @media (max-width: 640px) {
+        margin: 120px auto 160px auto;
+
+    }
 `;
