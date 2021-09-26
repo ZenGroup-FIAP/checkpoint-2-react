@@ -1,11 +1,51 @@
 import styled from 'styled-components'
 
-export const Html = styled.html`
-    html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        vertical-align: baseline;
+export const Cabecalho = styled.header`
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+    display: flex;
+    background-color: #6FAECB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+    .logo-img svg {
+        width: 200px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+
+    ul li {
+        margin: 0px 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        
+    }
+
+    a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    @media (max-width: 820px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (max-width: 640px) {
+        ul {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            margin: 10px 0px;
+        }
+    }
 `;
 
 export const Container = styled.div`
@@ -34,6 +74,11 @@ export const BotaoHomeP = styled.p`
     font-size: 25px;
     font-family: Georgia;
     font-weight: normal;
+
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
 `;
 
 export const BgHome = styled.div`
@@ -87,9 +132,16 @@ export const Subtitulo = styled.h3`
 `;
 
 export const Flexbox = styled.div`
+    max-width: 1640px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 124px;
+
+    @media (max-width: 1800px) {
+        flex-direction: column;
+        justify-content: center;
+
+    }
 `;
 
 export const FlexItem = styled.div`
@@ -109,4 +161,41 @@ export const SobreHomeP = styled.p`
     font-family: Georgia;
     font-weight: normal;
     margin-bottom: 60px
+`;
+
+export const ListaSobre = styled.ul`
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 120px auto 363px auto;
+    font-style: italic;
+    font-weight: bold;
+    color: #3d3d3d;
+
+    @media (max-width: 640px) {
+        margin: 120px auto 160px auto;
+
+    }
+`;
+
+export const FlexboxSobre = styled.div`
+    max-width: 1640px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1800px) {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+`;
+
+export const FlexItemSobre = styled.div`
+    text-align: center;
+    margin: 40px auto 80px auto;
+
+    @media (max-width: 1800px) {
+        margin: 40px auto 40px auto;
+
+    }
 `;

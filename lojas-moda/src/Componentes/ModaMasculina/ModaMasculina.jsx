@@ -1,34 +1,41 @@
 import React from 'react'
-import Camisetas from "../../img/masculino/camisetas-homem@2x.jpg"
-import Calcas from "../../img/masculino/calcas-homem@2x.jpg"
-import Calcados from "../../img/masculino/calcados-homem@2x.jpg"
-import Social from "../../img/masculino/social-homem@2x.jpg"
+import { Titulo, Subtitulo, SecaoHome, Container, Flexbox, FlexItem, TituloFlexItem} from '../../styled.js'
+import Camisetas from "../../img/masculino/camisetas-homem.jpg"
+import Calcas from "../../img/masculino/calcas-homem.jpg"
+import Calcados from "../../img/masculino/calcados-homem.jpg"
+import Social from "../../img/masculino/social-homem.jpg"
 
 
 export default function ModaMasculina() {
     return (
         <div>
-            <h1>Moda masculina</h1>
-            <p>O melhor e mais sofisticado para homem</p>
+            <SecaoHome>
+                <Titulo>Moda masculina</Titulo>
+                <Subtitulo>O melhor e mais sofisticado para homem</Subtitulo>
+            </SecaoHome>
 
-            <ul>
-                <li>
-                    <img src={Camisetas} alt="Camisetas em cabides" />
-                    <p>Camisetas</p>
-                </li>
-                <li>
-                    <img src={Calcas} alt="Calça preta" />
-                    <p>Calças</p>
-                </li>
-                <li>
-                    <img src={Calcados} alt="Tênis vermelho" />
-                    <p>Calçados</p>
-                </li>
-                <li>
-                    <img src={Social} alt="Roupa social" />
-                    <p>Social</p>
-                </li>
-            </ul>
+            <Container>
+                <SecaoHome>
+                    <Flexbox>
+                        <FlexItem>
+                            <img src={Camisetas} alt="Camisetas em cabides" />
+                            <TituloFlexItem>Camisetas</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={Calcas} alt="Calça preta" />
+                            <TituloFlexItem>Calças</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={Calcados} alt="Tênis vermelho" />
+                            <TituloFlexItem>Calçados</TituloFlexItem>
+                        </FlexItem>
+                        <FlexItem>
+                            <img src={Social} alt="Roupa social" />
+                            <TituloFlexItem>Social</TituloFlexItem>
+                        </FlexItem>
+                    </Flexbox>
+                </SecaoHome>        
+            </Container>
         </div>
     )
 }

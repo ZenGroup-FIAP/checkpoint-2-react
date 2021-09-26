@@ -1,5 +1,5 @@
 import React from 'react'
-import {Zen} from "../styled-externo/styled-externo"
+import {Zen, Zin} from "../styled-externo/styled-externo"
 
 export default function Cabecalho() {
     return (
