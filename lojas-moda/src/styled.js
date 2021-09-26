@@ -172,3 +172,25 @@ export const ListaSobre = styled.ul`
 
     }
 `;
+
+export const FlexboxSobre = styled.div`
+    max-width: 1640px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1800px) {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+`;
+
+export const FlexItemSobre = styled.div`
+    text-align: center;
+    margin: 40px auto 80px auto;
+
+    @media (max-width: 1800px) {
+        margin: 40px auto 40px auto;
+
+    }
+`;
