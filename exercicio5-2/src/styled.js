@@ -11,17 +11,36 @@ export const CorpoStyled = styled.div`
 `;
 
 export const Titulo = styled.h1`
- color:palevioletred;
- font-size:60px;
- font-family:georgia;
- font-weight:bold;
+    color:palevioletred;
+    font-size:60px;
+    font-family:georgia;
+    font-weight:bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
 `;
+
+export const Subtitulo = styled.h2`
+    color: #3d3d3d;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 40px;
+`; 
+
+export const TituloInterno = styled.h2`
+    color: #3d3d3d;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+`; 
 
 export const Flexbox = styled.div`
     max-width: 1640px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 124px;
+    margin: 0;
 
     @media (max-width: 1800px) {
         flex-direction: column;
@@ -32,6 +51,7 @@ export const Flexbox = styled.div`
 
 export const FlexItem = styled.div`
     text-align:center;
+    margin-bottom: 40px;
 `;
 
 export const TituloItem = styled.p`
