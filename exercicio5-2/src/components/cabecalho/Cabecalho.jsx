@@ -1,13 +1,16 @@
 import React from 'react'
-import {Zen, Zin} from "../styled-externo/styled-externo"
+import {Container, Titulo, CorpoStyled} from "../../styled.js"
 
 export default function Cabecalho() {
     return (
-        <header>
-            <Zen>Sorveteria ZenGroup</Zen>
-            <Zin>Lorem ipsum dolor sit amet, consectetur adip
-                Lorem ipsum dolor sit amet, consectetur adip
-            </Zin>
-        </header>
+       <div>
+            <Container>
+            <CorpoStyled>   
+                <header>
+                <Titulo>Sorveteria ZenGroup</Titulo>
+                </header>
+            </CorpoStyled>
+            </Container>
+       </div>
     )
 }
