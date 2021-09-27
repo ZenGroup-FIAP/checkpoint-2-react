@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const CorpoStyled = styled.div`
     text-align:center;
+
 `;
 
 export const Titulo = styled.h1`
@@ -15,7 +16,6 @@ export const Titulo = styled.h1`
     font-size:60px;
     font-family:georgia;
     font-weight:bold;
-    margin-top: 60px;
     margin-bottom: 20px;
 `;
 
@@ -59,4 +59,23 @@ export const TituloItem = styled.p`
     color: #3d3d3d;
     font-family: Arial, Helvetica, sans-serif;
 
+`;
+
+export const TextoRodape = styled.p`
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+`;
+
+export const BgCabecalho = styled.div`
+    width: 100%;
+    background-color:papayawhip;
+    padding:60px 0;
+    margin-bottom: 40px;
+`;
+
+export const BgRodape = styled.div`
+    width: 100%;
+    background-color:palevioletred;
+    padding:40px 0;
 `;
