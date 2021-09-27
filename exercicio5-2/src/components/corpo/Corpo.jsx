@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, CorpoStyled, Flexbox, FlexItem, TituloItem } from '../../styled'
+import { Container, CorpoStyled, Flexbox, FlexItem, TituloInterno, TituloItem } from '../../styled'
 import Morango from '../../img/Sabores/morango.png'
 import Baunilha from '../../img/Sabores/baunilha.png'
 import Chocolate from '../../img/Sabores/chocolate.png'
@@ -22,83 +22,88 @@ export default function Corpo() {
     return (
         <div>
             <Container>
-            <CorpoStyled>
-                <Flexbox>
-                    <FlexItem> 
-                        <img src={Morango} alt="Morango" />
-                        <TituloItem>Morango</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Baunilha} alt="Baunilha" />
-                        <TituloItem>Baunilha</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Chocolate} alt="Chocolate" />
-                        <TituloItem>Chocolate</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Coco} alt="Coco" />
-                        <TituloItem>Coco</TituloItem>
-                    </FlexItem>
-                </Flexbox>
+                <CorpoStyled>
 
-                <Flexbox>
-                <FlexItem> 
-                        <img src={Flocos} alt="Flocos" />
-                        <TituloItem>Flocos</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Limao} alt="Limao" />
-                        <TituloItem>Limão</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={ChocoMenta} alt="Chocolate com menta" />
-                        <TituloItem>Choco Menta</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Napolitano} alt="Napolitano" />
-                        <TituloItem>Napolitano</TituloItem>
-                    </FlexItem>
-                </Flexbox>
+                    <TituloInterno>Sabores</TituloInterno>
+                    
+                    <Flexbox>
+                        <FlexItem> 
+                            <img src={Morango} alt="Morango" />
+                            <TituloItem>Morango</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Baunilha} alt="Baunilha" />
+                            <TituloItem>Baunilha</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Chocolate} alt="Chocolate" />
+                            <TituloItem>Chocolate</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Coco} alt="Coco" />
+                            <TituloItem>Coco</TituloItem>
+                        </FlexItem>
+                    </Flexbox>
 
-                <Flexbox>
-                <FlexItem> 
-                        <img src={Banana} alt="Banana" />
-                        <TituloItem>Banana</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={CaldaChocolate} alt="Calda de chocolate" />
-                        <TituloItem>Calda de chocolate</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Canudo} alt="Canudo" />
-                        <TituloItem>Canudo</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Chantilly} alt="Chantilly" />
-                        <TituloItem>Chantilly</TituloItem>
-                    </FlexItem>
-                </Flexbox>
+                    <Flexbox>
+                        <FlexItem> 
+                            <img src={Flocos} alt="Flocos" />
+                            <TituloItem>Flocos</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Limao} alt="Limao" />
+                            <TituloItem>Limão</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={ChocoMenta} alt="Chocolate com menta" />
+                            <TituloItem>Choco Menta</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Napolitano} alt="Napolitano" />
+                            <TituloItem>Napolitano</TituloItem>
+                        </FlexItem>
+                    </Flexbox>
 
-                <Flexbox>
-                <FlexItem> 
-                        <img src={Granulado} alt="Granulado" />
-                        <TituloItem>Granulado</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Mm} alt="Mm" />
-                        <TituloItem>M&amp;M's</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={OvoMaltine} alt="OvoMaltine" />
-                        <TituloItem>OvoMaltine</TituloItem>
-                    </FlexItem>
-                    <FlexItem> 
-                        <img src={Pacoca} alt="Paçoca" />
-                        <TituloItem>Paçoca</TituloItem>
-                    </FlexItem>
-                </Flexbox>
-            </CorpoStyled>
+                    <TituloInterno>Acompanhamentos</TituloInterno>
+
+                    <Flexbox>
+                        <FlexItem> 
+                            <img src={Banana} alt="Banana" />
+                            <TituloItem>Banana</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={CaldaChocolate} alt="Calda de chocolate" />
+                            <TituloItem>Calda de chocolate</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Canudo} alt="Canudo" />
+                            <TituloItem>Canudo</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Chantilly} alt="Chantilly" />
+                            <TituloItem>Chantilly</TituloItem>
+                        </FlexItem>
+                    </Flexbox>
+
+                    <Flexbox>
+                        <FlexItem> 
+                            <img src={Granulado} alt="Granulado" />
+                            <TituloItem>Granulado</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Mm} alt="Mm" />
+                            <TituloItem>M&amp;M's</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={OvoMaltine} alt="OvoMaltine" />
+                            <TituloItem>OvoMaltine</TituloItem>
+                        </FlexItem>
+                        <FlexItem> 
+                            <img src={Pacoca} alt="Paçoca" />
+                            <TituloItem>Paçoca</TituloItem>
+                        </FlexItem>
+                    </Flexbox>
+                </CorpoStyled>
             </Container>
         </div>
     )
